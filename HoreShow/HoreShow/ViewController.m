@@ -12,7 +12,7 @@
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 @property(nonatomic,weak)NSArray *dataArray;
 @end
-
+static NSString *identifier = @"Cell";
 @implementation ViewController
 
 #pragma mark
@@ -60,20 +60,29 @@
 #pragma mark -  行内容
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:nil];
-    //下面这一句是错误的,因为没有section
-//    HoreModel *horeModel = self.dataArray[indexPath.section];
-    HoreModel *horeModel = self.dataArray[indexPath.row];
-    cell.imageView.image  = [UIImage imageNamed:horeModel.icon];
-    cell.textLabel.text = horeModel.name;
-    cell.detailTextLabel.text = horeModel.intro;
-    //福建类型---箭头模式
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 
-    //自定义选中颜色
-    UIView *view = [[UIView alloc]initWithFrame:cell.bounds];
-    cell.selectedBackgroundView = view;
-    cell.selectedBackgroundView.backgroundColor = [UIColor redColor];
+    //这个方法:滑动cell时,会不断调用cell这个方法.比较麻烦
+//    UITableViewCell *cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:nil];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    //判断有没有这个Cell.有的话就直接调用,没有的话就重新初始化
+    if (cell == nil) {
+       cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifier];
+        //下面这一句是错误的,因为没有section
+        //    HoreModel *horeModel = self.dataArray[indexPath.section];
+        HoreModel *horeModel = self.dataArray[indexPath.row];
+        cell.imageView.image  = [UIImage imageNamed:horeModel.icon];
+        cell.textLabel.text = horeModel.name;
+        cell.detailTextLabel.text = horeModel.intro;
+        //福建类型---箭头模式
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+
+        //自定义选中颜色
+        UIView *view = [[UIView alloc]initWithFrame:cell.bounds];
+        cell.selectedBackgroundView = view;
+        cell.selectedBackgroundView.backgroundColor = [UIColor redColor];
+        NSLog(@"%p",cell);
+    }
+
     return cell;
 
 }
