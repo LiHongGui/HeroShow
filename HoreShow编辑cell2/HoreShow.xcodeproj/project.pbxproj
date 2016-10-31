@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C769F331DBA6DE1006042BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C769F321DBA6DE1006042BF /* main.m */; };
+		1C769F361DBA6DE1006042BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C769F351DBA6DE1006042BF /* AppDelegate.m */; };
+		1C769F391DBA6DE1006042BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C769F381DBA6DE1006042BF /* ViewController.m */; };
+		1C769F3C1DBA6DE1006042BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C769F3A1DBA6DE1006042BF /* Main.storyboard */; };
+		1C769F3E1DBA6DE1006042BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C769F3D1DBA6DE1006042BF /* Assets.xcassets */; };
+		1C769F411DBA6DE1006042BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C769F3F1DBA6DE1006042BF /* LaunchScreen.storyboard */; };
+		1C769F4C1DBA6DE1006042BF /* HoreShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C769F4B1DBA6DE1006042BF /* HoreShowTests.m */; };
+		1C769F571DBA6DE1006042BF /* HoreShowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C769F561DBA6DE1006042BF /* HoreShowUITests.m */; };
+		1C769F651DBA6DF0006042BF /* heros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C769F641DBA6DF0006042BF /* heros.plist */; };
+		1C769F681DBA6E22006042BF /* HoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C769F671DBA6E22006042BF /* HoreModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C769F481DBA6DE1006042BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C769F261DBA6DE0006042BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C769F2D1DBA6DE0006042BF;
+			remoteInfo = HoreShow;
+		};
+		1C769F531DBA6DE1006042BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C769F261DBA6DE0006042BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C769F2D1DBA6DE0006042BF;
+			remoteInfo = HoreShow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C769F2E1DBA6DE1006042BF /* HoreShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoreShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C769F321DBA6DE1006042BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C769F341DBA6DE1006042BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C769F351DBA6DE1006042BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C769F371DBA6DE1006042BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C769F381DBA6DE1006042BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C769F3B1DBA6DE1006042BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C769F3D1DBA6DE1006042BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C769F401DBA6DE1006042BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C769F421DBA6DE1006042BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C769F471DBA6DE1006042BF /* HoreShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoreShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C769F4B1DBA6DE1006042BF /* HoreShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoreShowTests.m; sourceTree = "<group>"; };
+		1C769F4D1DBA6DE1006042BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C769F521DBA6DE1006042BF /* HoreShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoreShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C769F561DBA6DE1006042BF /* HoreShowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoreShowUITests.m; sourceTree = "<group>"; };
+		1C769F581DBA6DE1006042BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C769F641DBA6DF0006042BF /* heros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = heros.plist; sourceTree = "<group>"; };
+		1C769F661DBA6E22006042BF /* HoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoreModel.h; sourceTree = "<group>"; };
+		1C769F671DBA6E22006042BF /* HoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoreModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C769F2B1DBA6DE0006042BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C769F441DBA6DE1006042BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C769F4F1DBA6DE1006042BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C769F251DBA6DE0006042BF = {
+			isa = PBXGroup;
+			children = (
+				1C769F301DBA6DE1006042BF /* HoreShow */,
+				1C769F4A1DBA6DE1006042BF /* HoreShowTests */,
+				1C769F551DBA6DE1006042BF /* HoreShowUITests */,
+				1C769F2F1DBA6DE1006042BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C769F2F1DBA6DE1006042BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C769F2E1DBA6DE1006042BF /* HoreShow.app */,
+				1C769F471DBA6DE1006042BF /* HoreShowTests.xctest */,
+				1C769F521DBA6DE1006042BF /* HoreShowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C769F301DBA6DE1006042BF /* HoreShow */ = {
+			isa = PBXGroup;
+			children = (
+				1C769F341DBA6DE1006042BF /* AppDelegate.h */,
+				1C769F351DBA6DE1006042BF /* AppDelegate.m */,
+				1C769F371DBA6DE1006042BF /* ViewController.h */,
+				1C769F381DBA6DE1006042BF /* ViewController.m */,
+				1C769F661DBA6E22006042BF /* HoreModel.h */,
+				1C769F671DBA6E22006042BF /* HoreModel.m */,
+				1C769F3A1DBA6DE1006042BF /* Main.storyboard */,
+				1C769F3D1DBA6DE1006042BF /* Assets.xcassets */,
+				1C769F3F1DBA6DE1006042BF /* LaunchScreen.storyboard */,
+				1C769F421DBA6DE1006042BF /* Info.plist */,
+				1C769F311DBA6DE1006042BF /* Supporting Files */,
+			);
+			path = HoreShow;
+			sourceTree = "<group>";
+		};
+		1C769F311DBA6DE1006042BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C769F641DBA6DF0006042BF /* heros.plist */,
+				1C769F321DBA6DE1006042BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C769F4A1DBA6DE1006042BF /* HoreShowTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C769F4B1DBA6DE1006042BF /* HoreShowTests.m */,
+				1C769F4D1DBA6DE1006042BF /* Info.plist */,
+			);
+			path = HoreShowTests;
+			sourceTree = "<group>";
+		};
+		1C769F551DBA6DE1006042BF /* HoreShowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C769F561DBA6DE1006042BF /* HoreShowUITests.m */,
+				1C769F581DBA6DE1006042BF /* Info.plist */,
+			);
+			path = HoreShowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C769F2D1DBA6DE0006042BF /* HoreShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C769F5B1DBA6DE1006042BF /* Build configuration list for PBXNativeTarget "HoreShow" */;
+			buildPhases = (
+				1C769F2A1DBA6DE0006042BF /* Sources */,
+				1C769F2B1DBA6DE0006042BF /* Frameworks */,
+				1C769F2C1DBA6DE0006042BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoreShow;
+			productName = HoreShow;
+			productReference = 1C769F2E1DBA6DE1006042BF /* HoreShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C769F461DBA6DE1006042BF /* HoreShowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C769F5E1DBA6DE1006042BF /* Build configuration list for PBXNativeTarget "HoreShowTests" */;
+			buildPhases = (
+				1C769F431DBA6DE1006042BF /* Sources */,
+				1C769F441DBA6DE1006042BF /* Frameworks */,
+				1C769F451DBA6DE1006042BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C769F491DBA6DE1006042BF /* PBXTargetDependency */,
+			);
+			name = HoreShowTests;
+			productName = HoreShowTests;
+			productReference = 1C769F471DBA6DE1006042BF /* HoreShowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C769F511DBA6DE1006042BF /* HoreShowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C769F611DBA6DE1006042BF /* Build configuration list for PBXNativeTarget "HoreShowUITests" */;
+			buildPhases = (
+				1C769F4E1DBA6DE1006042BF /* Sources */,
+				1C769F4F1DBA6DE1006042BF /* Frameworks */,
+				1C769F501DBA6DE1006042BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C769F541DBA6DE1006042BF /* PBXTargetDependency */,
+			);
+			name = HoreShowUITests;
+			productName = HoreShowUITests;
+			productReference = 1C769F521DBA6DE1006042BF /* HoreShowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C769F261DBA6DE0006042BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "手持POS机";
+				TargetAttributes = {
+					1C769F2D1DBA6DE0006042BF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6VQT7QJ3A6;
+						ProvisioningStyle = Automatic;
+					};
+					1C769F461DBA6DE1006042BF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6VQT7QJ3A6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1C769F2D1DBA6DE0006042BF;
+					};
+					1C769F511DBA6DE1006042BF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6VQT7QJ3A6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1C769F2D1DBA6DE0006042BF;
+					};
+				};
+			};
+			buildConfigurationList = 1C769F291DBA6DE0006042BF /* Build configuration list for PBXProject "HoreShow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C769F251DBA6DE0006042BF;
+			productRefGroup = 1C769F2F1DBA6DE1006042BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C769F2D1DBA6DE0006042BF /* HoreShow */,
+				1C769F461DBA6DE1006042BF /* HoreShowTests */,
+				1C769F511DBA6DE1006042BF /* HoreShowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C769F2C1DBA6DE0006042BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C769F411DBA6DE1006042BF /* LaunchScreen.storyboard in Resources */,
+				1C769F3E1DBA6DE1006042BF /* Assets.xcassets in Resources */,
+				1C769F651DBA6DF0006042BF /* heros.plist in Resources */,
+				1C769F3C1DBA6DE1006042BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C769F451DBA6DE1006042BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C769F501DBA6DE1006042BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C769F2A1DBA6DE0006042BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C769F391DBA6DE1006042BF /* ViewController.m in Sources */,
+				1C769F681DBA6E22006042BF /* HoreModel.m in Sources */,
+				1C769F361DBA6DE1006042BF /* AppDelegate.m in Sources */,
+				1C769F331DBA6DE1006042BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C769F431DBA6DE1006042BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C769F4C1DBA6DE1006042BF /* HoreShowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C769F4E1DBA6DE1006042BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C769F571DBA6DE1006042BF /* HoreShowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C769F491DBA6DE1006042BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C769F2D1DBA6DE0006042BF /* HoreShow */;
+			targetProxy = 1C769F481DBA6DE1006042BF /* PBXContainerItemProxy */;
+		};
+		1C769F541DBA6DE1006042BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C769F2D1DBA6DE0006042BF /* HoreShow */;
+			targetProxy = 1C769F531DBA6DE1006042BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C769F3A1DBA6DE1006042BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C769F3B1DBA6DE1006042BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C769F3F1DBA6DE1006042BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C769F401DBA6DE1006042BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C769F591DBA6DE1006042BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1C769F5A1DBA6DE1006042BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C769F5C1DBA6DE1006042BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VQT7QJ3A6;
+				INFOPLIST_FILE = HoreShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lihonggui1988.com.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C769F5D1DBA6DE1006042BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VQT7QJ3A6;
+				INFOPLIST_FILE = HoreShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lihonggui1988.com.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C769F5F1DBA6DE1006042BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6VQT7QJ3A6;
+				INFOPLIST_FILE = HoreShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.com.HoreShowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoreShow.app/HoreShow";
+			};
+			name = Debug;
+		};
+		1C769F601DBA6DE1006042BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6VQT7QJ3A6;
+				INFOPLIST_FILE = HoreShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.com.HoreShowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoreShow.app/HoreShow";
+			};
+			name = Release;
+		};
+		1C769F621DBA6DE1006042BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6VQT7QJ3A6;
+				INFOPLIST_FILE = HoreShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.com.HoreShowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HoreShow;
+			};
+			name = Debug;
+		};
+		1C769F631DBA6DE1006042BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6VQT7QJ3A6;
+				INFOPLIST_FILE = HoreShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.com.HoreShowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HoreShow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C769F291DBA6DE0006042BF /* Build configuration list for PBXProject "HoreShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C769F591DBA6DE1006042BF /* Debug */,
+				1C769F5A1DBA6DE1006042BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C769F5B1DBA6DE1006042BF /* Build configuration list for PBXNativeTarget "HoreShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C769F5C1DBA6DE1006042BF /* Debug */,
+				1C769F5D1DBA6DE1006042BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C769F5E1DBA6DE1006042BF /* Build configuration list for PBXNativeTarget "HoreShowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C769F5F1DBA6DE1006042BF /* Debug */,
+				1C769F601DBA6DE1006042BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C769F611DBA6DE1006042BF /* Build configuration list for PBXNativeTarget "HoreShowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C769F621DBA6DE1006042BF /* Debug */,
+				1C769F631DBA6DE1006042BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C769F261DBA6DE0006042BF /* Project object */;
+}
