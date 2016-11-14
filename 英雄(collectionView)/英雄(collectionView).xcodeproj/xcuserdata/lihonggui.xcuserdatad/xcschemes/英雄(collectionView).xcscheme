@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0810"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E443D4D61DD5B31300C51E57"
+               BuildableName = "&#x82f1;&#x96c4;(collectionView).app"
+               BlueprintName = "&#x82f1;&#x96c4;(collectionView)"
+               ReferencedContainer = "container:&#x82f1;&#x96c4;(collectionView).xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E443D4EF1DD5B31400C51E57"
+               BuildableName = "&#x82f1;&#x96c4;(collectionView)Tests.xctest"
+               BlueprintName = "&#x82f1;&#x96c4;(collectionView)Tests"
+               ReferencedContainer = "container:&#x82f1;&#x96c4;(collectionView).xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E443D4FA1DD5B31400C51E57"
+               BuildableName = "&#x82f1;&#x96c4;(collectionView)UITests.xctest"
+               BlueprintName = "&#x82f1;&#x96c4;(collectionView)UITests"
+               ReferencedContainer = "container:&#x82f1;&#x96c4;(collectionView).xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E443D4D61DD5B31300C51E57"
+            BuildableName = "&#x82f1;&#x96c4;(collectionView).app"
+            BlueprintName = "&#x82f1;&#x96c4;(collectionView)"
+            ReferencedContainer = "container:&#x82f1;&#x96c4;(collectionView).xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E443D4D61DD5B31300C51E57"
+            BuildableName = "&#x82f1;&#x96c4;(collectionView).app"
+            BlueprintName = "&#x82f1;&#x96c4;(collectionView)"
+            ReferencedContainer = "container:&#x82f1;&#x96c4;(collectionView).xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E443D4D61DD5B31300C51E57"
+            BuildableName = "&#x82f1;&#x96c4;(collectionView).app"
+            BlueprintName = "&#x82f1;&#x96c4;(collectionView)"
+            ReferencedContainer = "container:&#x82f1;&#x96c4;(collectionView).xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

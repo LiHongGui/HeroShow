@@ -442,6 +442,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.com.HoreShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,6 +455,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.com.HoreShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -526,6 +528,7 @@
 				1C769F5D1DBA6DE1006042BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C769F5E1DBA6DE1006042BF /* Build configuration list for PBXNativeTarget "HoreShowTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +537,7 @@
 				1C769F601DBA6DE1006042BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C769F611DBA6DE1006042BF /* Build configuration list for PBXNativeTarget "HoreShowUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +546,7 @@
 				1C769F631DBA6DE1006042BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
